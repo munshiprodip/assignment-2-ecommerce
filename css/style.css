@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* customized style for theam */
+.ff-Oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.fs-70{
+    font-size: 70px;
+}
+.btn-custom{
+    color:#fff;
+    background-color: #2A1E59;
+    border-color: #2A1E59;
+}
+.rounded-20{
+    border-radius: 15px !important;
+}
+
+
+
+/* customized style for responsive */
+@media (max-width: 767px){
+    .logo{
+        width: 220px!important;
+    }
+
+    .ta-center{
+        text-align: center!important;
+    }
+    .social-menu-sm{
+        justify-content: center!important;
+    }
+    .social-menu-sm a i{
+        padding: 0px 8px !important;
+    }
+}
+
+@media (max-width: 350px){
+    .logo{
+        width: 190px!important;
+    }
+}
